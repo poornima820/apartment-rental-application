@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ViewBookingController">
+   <children>
+      <TableView layoutX="76.0" layoutY="36.0" prefHeight="200.0" prefWidth="342.0" fx:id="viewBookings">
+        <columns>
+          <TableColumn prefWidth="104.0" text="Booking ID" />
+          <TableColumn prefWidth="109.0" text="Move In Date" />
+            <TableColumn prefWidth="128.0" text="Move Out Date" />
+        </columns>
+      </TableView>
+      <Button layoutX="191.0" layoutY="257.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="125.0" text="Back" onAction="#Apartment" />
+   </children>
+</AnchorPane>

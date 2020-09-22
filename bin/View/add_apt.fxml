@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminController">
+   <children>
+      <Label layoutX="187.0" layoutY="31.0" prefHeight="5.0" prefWidth="246.0" text="Add Apartment" />
+      <Label layoutX="48.0" layoutY="101.0" prefHeight="7.0" prefWidth="109.0" text="Apartment ID" />
+      <Label layoutX="48.0" layoutY="139.0" prefHeight="21.0" prefWidth="136.0" text="Apartment Type" />
+      <Label layoutX="48.0" layoutY="179.0" prefHeight="35.0" prefWidth="126.0" text="Apartment Rent" />
+      <TextField layoutX="228.0" layoutY="97.0" fx:id="apt_id"/>
+      <TextField layoutX="228.0" layoutY="181.0" fx:id="apt_rent"/>
+      <TextField layoutX="228.0" layoutY="134.0" fx:id="apt_type" />
+       <Button layoutX="228.0" layoutY="278.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" text="Add" onAction="#addAptinDb"/>
+      <Button layoutX="329.0" layoutY="278.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" text="Cancel" onAction="#adminPage"/>
+   </children>
+</AnchorPane>
+
